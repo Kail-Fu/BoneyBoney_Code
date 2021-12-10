@@ -9,7 +9,7 @@ from subtraction2 import Subtraction2
 
 
 def conv1x1(out_planes, stride=1):
-    ''' convolutions with kernel size as (1,1) '''
+    ''' convolutions with kernel size as (1,1) => used for linear expansion '''
     return tf.keras.layers.Conv2D(out_planes, kernel_size=(1,1), strides=stride, padding="same",data_format="channels_first",use_bias=False)
 
 
