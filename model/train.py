@@ -14,7 +14,7 @@ model.summary()
 
 
 # # # # --------------------- Load the data --------------------- # # # #
-train_images, train_labels, test_images, test_labels = preprocess_wo_valid("whole_dataset")
+train_images, train_labels, test_images, test_labels = preprocess_wo_valid("sample_dataset")
 train_images = train_images[:(len(train_images)//config.batch_size)*config.batch_size]
 train_labels = train_labels[:(len(train_labels)//config.batch_size)*config.batch_size]
 test_images = test_images[:(len(test_images)//config.batch_size)*config.batch_size]
