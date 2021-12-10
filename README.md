@@ -1,3 +1,5 @@
+This is a re-implementatino of https://github.com/hszhao/SAN/blob/master/model/san.py SAN model. We translated this model to tensorflow and used it to classify bone x-ray photos, achieving a 78.9% accuracy.
+
 # Run on sample_dataset
 Command "python model/train.py" to run on sample_dataset of 2000 images (training + testing combined)
 
